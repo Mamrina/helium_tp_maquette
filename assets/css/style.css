@@ -1,20 +1,114 @@
-@font-face {
-    font-family: 'Inter';
-    src: url('./fonts/inter-regular-webfont.woff') format('woff');
-    src: url('./fonts/inter-regular-webfont.woff2')
-  }
-  
-  body {
-    font-family: 'Inter', sans-serif;
-  }
-  
-
 * {
     box-sizing: border-box;
 }
 
 body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+body {
+    min-height: 100vh;
     background-color: #1D1D1D;
     color: #FEFEFE;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-style: 0.8rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+
+.header-left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.header-left-container h3 {
+    color: #474dff;
+    font-size: 1.8rem;
+}
+
+.header-right {
+    width: 50%;
+}
+
+#modem {
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    background: rgb(10, 10, 10);
+    border-radius: 10px;
+}
+
+.infos-left {
+    width: 33%;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button {
+    border: none;
+    background: #474dff;
+    color: white;
+    width: 150px;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 5px;
+}
+
+.infos-right {
+    width: 67%;
+}
+
+.investors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.img-container img {
+    height: 60px;
+}
